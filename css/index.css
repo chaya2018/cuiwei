@@ -1,0 +1,812 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p,
+div,
+textarea,
+input,
+select,
+button {
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+li {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.wrapper{
+	width: 750px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*----------------------------------------首页-------------------------------------*/
+.index_container{
+	/*display: none;*/
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+.index_container .content{
+	width: 750px;
+	height: 100%;
+	background-color: #ecedf1;
+}
+/*头部*/
+.index_container .content .top{
+	width: 750px;
+	height: auto;
+	background-color: #ffffff;
+}
+.index_container .content .top .header{
+	width: 690px;
+	height: 67px;
+	padding: 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.index_container .content .top .header>div:first-child{
+	width: 322px;
+	height: 58px;
+}
+.index_container .content .top .header>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 89px;
+	height: 67px;
+}
+.index_container .content .top .header>div p{
+	font-size: 22px;
+	font-family: "黑体";
+	margin-top: 7px;
+}
+/*头部结束*/
+
+/*查看详情*/
+.index_container .content .main2{
+	width: 750px;
+	height: auto;
+}
+.index_container .content .main2>div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 240px;
+}
+.index_container .content .main2>div:first-child{
+	margin-left: 32px;
+}
+.index_container .content .main2>div:last-child{
+	margin-left: 27px;
+}
+.index_container .content .main2>div:nth-child(odd)>img{
+	display: block;
+	float: left;
+}
+.index_container .content .main2>div:nth-child(odd) div{
+	float: left;
+}
+.index_container .content .main2>div:nth-child(2) div{
+	float: left;
+	width: 370px;
+}
+.index_container .content .main2>div>div{
+	width: 340px;
+	height: 240px;
+	background-color: #ffffff;
+}
+.index_container .content .main2>div>div p:first-child{
+	font-size: 30px;
+	margin: 27px;
+}
+.index_container .content .main2>div>div p:nth-child(2){
+	width: 286px;
+	font-size: 26px;
+	margin-left: 27px;
+}
+.index_container .content .main2>div:nth-child(odd) a{
+	display: block;
+	font-size: 24px;
+	color: #3e6494;
+	margin: 25px 0 10px 195px;
+}
+.index_container .content .main2>div:nth-child(even) a{
+	display: block;
+	font-size: 24px;
+	color: #3e6494;
+	margin: 25px;
+}
+/*查看详情结束*/
+
+/*预约表单*/
+.index_container .content .main3{
+	padding-top: 40px;
+	width: 685px;
+	height: 980px;
+	background-color: #FFFFFF;
+	margin: 0 32.5px 32.5px 32px;
+}
+.index_container .content .main3>p{
+	width: 360px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-family: "黑体";
+}
+.index_container .content .main3>form{
+	width: 545px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.index_container .content .main3>form>div{
+	width: 545px;
+	height: 65px;
+	margin-bottom: 40px;
+	border: 2px solid #e0e0e0;
+}
+.index_container .content .main3>form>div>p{
+	font-size: 31px;
+	font-family: "黑体";
+	float: left;
+	margin: 0 20px;
+	line-height: 65px;
+}
+.index_container .content .main3>form>div>input,
+.index_container .content .main3>form>div>select{
+	width: 380px;
+	height: 65px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+.index_container .content .main3>form>div input[type="text"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.index_container .content .main3>form>div>select{
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.index_container .content .main3>form>div #projects{
+	margin-left: 122px;
+}
+.index_container .content .main3 #btn{
+	margin: 35px 123px 75px 123px;
+}
+.index_container .content .main3 .tips{
+	width: 495px;
+	height: auto;
+	margin: 0 95px;
+}
+.index_container .content .main3 .tips img{
+	float: left;
+	display: block;
+	margin-top: 14px;
+}
+
+.index_container .content .main3 .tips p{
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	color: #ff5e80;
+}
+.index_container .content .main3 .tips span{
+	font-size: 30px;
+	font-weight: 600;
+}
+/*预约表单结束*/
+
+/*底部*/
+.index_container .content .footer{
+	width: 750px;
+	height: auto;
+	background-color: #3e6494;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.index_container .content .footer>div{
+	width: 280px;
+	height: auto;
+	margin: 0 auto;
+}
+.index_container .content .footer>div p{
+	font-size: 26px;
+	color: #ffffff;
+	font-family: "黑体";
+}
+/*底部结束*/
+
+/*弹窗*/
+.hide{	
+	display: none;
+	width: 750px;
+	height: 100%;
+	z-index: 5;
+	position: fixed;
+	top: 0;
+}
+.hide .banner {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hide .banner .window {
+	width: 470px;
+	height: 252px;
+	background-color: #FFFFFF;
+	border: 6px solid #3e6493;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	bottom: 540px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.hide .banner .window #notes{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 340px;
+}
+.hide .banner .window span{
+	font-size: 34px;
+	font-family: "黑体";
+	margin-top: 50px;
+	text-align: center;
+}
+.hide .banner .window button{
+	position: absolute;
+	bottom: 30px;
+}
+
+/*弹窗结束*/
+
+
+/*--------------------------------------首页结束---------------------------------*/
+
+
+/*-------------------------------------报名表--------------------------------------*/
+.table_container{
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+.table_container .content{
+	padding-top: 30px;
+	width: 750px;
+	height: 100%;
+	background-color: #ecedf1;
+}
+/*预约表单*/
+.table_container .content .main3{
+	padding-top: 40px;
+	width: 685px;
+	height: 1140px;
+	background-color: #ffffff;
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin: 0 32.5px 32.5px 32px;
+}
+.table_container .content .main3>p{
+	width: 360px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-family: "黑体";
+	color: #3e6494;
+}
+.table_container .content .main3>form{
+	width: 545px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.table_container .content .main3>form>div{
+	width: 545px;
+	height: 65px;
+	margin-bottom: 40px;
+	border: 2px solid #e0e0e0;
+}
+.table_container .content .main3>form>div>p{
+	font-size: 31px;
+	font-family: "黑体";
+	float: left;
+	margin: 0 20px;
+	line-height: 65px;
+}
+.table_container .content .main3>form>div>input,
+.table_container .content .main3>form>div>select{
+	width: 380px;
+	height: 65px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+
+.table_container .content .main3>form>div input[type="text"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.table_container .content .main3>form>div>select{
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.table_container .content .main3>form>div #projects{
+	margin-left: 122px;
+}
+.table_container .content .main3 #btn{
+	margin: 20px 123px;
+}
+.table_container .content .main3 .tips{
+	width: 495px;
+	height: auto;
+	margin: 0 95px;
+}
+.table_container .content .main3 .tips img{
+	float: left;
+	display: block;
+	margin-top: 14px;
+}
+
+.table_container .content .main3 .tips p{
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	color: #ff5e80;
+}
+.table_container .content .main3 .tips span{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/*------------------------------------详情页------------------------------------------*/
+/*详情页-入门英语课程*/
+.details01_container{
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+.details01_container .content{
+	width: 750px;
+	height: 100%;
+	background-color: #ecedf1;
+}
+/*头部*/
+.details01_container .content .top{
+	width: 750px;
+	height: auto;
+	background-color: #ffffff;
+}
+.details01_container .content .top .header{
+	width: 690px;
+	height: 67px;
+	padding: 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.details01_container .content .top .header>div:first-child{
+	width: 322px;
+	height: 58px;
+}
+.details01_container .content .top .header>div{
+	width: 89px;
+	height: 67px;
+}
+.details01_container .content .top .header>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 89px;
+	height: 67px;
+}
+.details01_container .content .top .header>div p{
+	font-size: 22px;
+	font-family: "黑体";
+	margin-top: 7px;
+}
+/*头部结束*/
+.details01_container .content img{
+	display: block;
+}
+.details01_container .content .main1{
+	margin-top: 48px;
+}
+.details01_container .content #btn2{
+	margin: 40px 64px;
+}
+
+/*预约表单*/
+.details01_container .content .main3{
+	padding-top: 40px;
+	width: 685px;
+	height: 1040px;
+	background-color: #ffffff;
+	margin: 32px 32.5px;
+}
+.details01_container .content .main3>p{
+	width: 360px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-family: "黑体";
+}
+.details01_container .content .main3>form{
+	width: 545px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.details01_container .content .main3>form>div{
+	width: 545px;
+	height: 65px;
+	margin-bottom: 40px;
+	border: 2px solid #e0e0e0;
+}
+.details01_container .content .main3>form>div>p{
+	font-size: 31px;
+	font-family: "黑体";
+	float: left;
+	margin: 0 20px;
+	line-height: 65px;
+}
+.details01_container .content .main3>form>div>input,
+.details01_container .content .main3>form>div>select{
+	width: 380px;
+	height: 65px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+
+.details01_container .content .main3>form>div input[type="text"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.details01_container .content .main3>form>div>select{
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.details01_container .content .main3>form>div #projects{
+	margin-left: 122px;
+}
+.details01_container .content .main3 #btn{
+	margin: 75px 123px;
+}
+.details01_container .content .main3 .tips{
+	width: 495px;
+	height: auto;
+	margin: 0 95px;
+}
+.details01_container .content .main3 .tips img{
+	float: left;
+	display: block;
+	margin-top: 14px;
+}
+
+.details01_container .content .main3 .tips p{
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	color: #ff5e80;
+}
+.details01_container .content .main3 .tips span{
+	font-size: 30px;
+	font-weight: 600;
+}
+.details01_container .content .main3 .btns{
+	margin: 0 auto;
+	margin-top: 120px;
+	width: 470px;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+}
+/*详情页-入门英语课程结束*/
+
+/*详情页-商务英语课程*/
+.details02_container{
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+.details02_container .content{
+	width: 750px;
+	height: 100%;
+	background-color: #ecedf1;
+}
+/*头部*/
+.details02_container .content .top{
+	width: 750px;
+	height: auto;
+	background-color: #ffffff;
+}
+.details02_container .content .top .header{
+	width: 690px;
+	height: 67px;
+	padding: 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.details02_container .content .top .header>div:first-child{
+	width: 322px;
+	height: 58px;
+}
+.details02_container .content .top .header>div{
+	width: 89px;
+	height: 67px;
+}
+.details02_container .content .top .header>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 89px;
+	height: 67px;
+}
+.details02_container .content .top .header>div p{
+	font-size: 22px;
+	font-family: "黑体";
+	margin-top: 7px;
+}
+/*头部结束*/
+.details02_container .content img{
+	display: block;
+}
+.details02_container .content .main1{
+	margin-top: 48px;
+}
+.details02_container .content #btn2{
+	margin: 40px 64px;
+}
+
+/*预约表单*/
+.details02_container .content .main3{
+	padding-top: 40px;
+	width: 685px;
+	height: 1040px;
+	background-color: #ffffff;
+	margin: 32px 32.5px;
+}
+.details02_container .content .main3>p{
+	width: 360px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-family: "黑体";
+}
+.details02_container .content .main3>form{
+	width: 545px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.details02_container .content .main3>form>div{
+	width: 545px;
+	height: 65px;
+	margin-bottom: 40px;
+	border: 2px solid #e0e0e0;
+}
+.details02_container .content .main3>form>div>p{
+	font-size: 31px;
+	font-family: "黑体";
+	float: left;
+	margin: 0 20px;
+	line-height: 65px;
+}
+.details02_container .content .main3>form>div>input,
+.details02_container .content .main3>form>div>select{
+	width: 380px;
+	height: 65px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+
+.details02_container .content .main3>form>div input[type="text"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.details02_container .content .main3>form>div>select{
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.details02_container .content .main3>form>div #projects{
+	margin-left: 122px;
+}
+.details02_container .content .main3 #btn{
+	margin: 75px 123px;
+}
+.details02_container .content .main3 .tips{
+	width: 495px;
+	height: 100px;
+	margin: 20px 95px;
+}
+.details02_container .content .main3 .tips img{
+	float: left;
+	display: block;
+	margin-top: 14px;
+}
+
+.details02_container .content .main3 .tips p{
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	color: #ff5e80;
+}
+.details02_container .content .main3 .tips span{
+	font-size: 30px;
+	font-weight: 600;
+}
+.details02_container .content .main3 .btns{
+	margin: 35px auto;
+	width: 470px;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+}
+/*详情页-商务英语课程结束*/
+
+
+/*详情页-日韩课程*/
+.details03_container{
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+.details03_container .content{
+	width: 750px;
+	height: 100%;
+	background-color: #ecedf1;
+}
+/*头部*/
+.details03_container .content .top{
+	width: 750px;
+	height: auto;
+	background-color: #ffffff;
+}
+.details03_container .content .top .header{
+	width: 690px;
+	height: 67px;
+	padding: 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.details03_container .content .top .header>div:first-child{
+	width: 322px;
+	height: 58px;
+}
+.details03_container .content .top .header>div{
+	width: 89px;
+	height: 67px;
+}
+.details03_container .content .top .header>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 89px;
+	height: 67px;
+}
+.details03_container .content .top .header>div p{
+	font-size: 22px;
+	font-family: "黑体";
+	margin-top: 7px;
+}
+/*头部结束*/
+.details03_container .content img{
+	display: block;
+}
+.details03_container .content .main1{
+	margin-top: 48px;
+}
+.details03_container .content #btn2{
+	margin: 40px 64px;
+}
+
+/*预约表单*/
+.details03_container .content .main3{
+	padding-top: 40px;
+	width: 685px;
+	height: 1040px;
+	background-color: #ffffff;
+	margin: 32px 32.5px;
+}
+.details03_container .content .main3>p{
+	width: 360px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-family: "黑体";
+}
+.details03_container .content .main3>form{
+	width: 545px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.details03_container .content .main3>form>div{
+	width: 545px;
+	height: 65px;
+	margin-bottom: 40px;
+	border: 2px solid #e0e0e0;
+}
+.details03_container .content .main3>form>div>p{
+	font-size: 31px;
+	font-family: "黑体";
+	float: left;
+	margin: 0 20px;
+	line-height: 65px;
+}
+.details03_container .content .main3>form>div>input,
+.details03_container .content .main3>form>div>select{
+	width: 380px;
+	height: 65px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+
+.details03_container .content .main3>form>div input[type="text"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.details03_container .content .main3>form>div>select{
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.details03_container .content .main3>form>div #projects{
+	margin-left: 122px;
+}
+.details03_container .content .main3 #btn{
+	margin: 75px 123px;
+}
+.details03_container .content .main3 .tips{
+	width: 495px;
+	height: 100px;
+	margin: 20px 95px;
+	z-index: 2;
+}
+.details03_container .content .main3 .tips img{
+	float: left;
+	display: block;
+	margin-top: 14px;
+}
+
+.details03_container .content .main3 .tips p{
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	color: #ff5e80;
+}
+.details03_container .content .main3 .tips span{
+	font-size: 30px;
+	font-weight: 600;
+}
+.details03_container .content .main3 .btns{
+	margin: 35px auto;
+	width: 470px;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+}
+/*详情页-日韩课程结束*/
